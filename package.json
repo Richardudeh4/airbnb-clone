@@ -53,9 +53,3 @@
     "typescript": "^5"
   }
 }
-"scripts": {
-  "prisma:generate": "npx prisma generate",
-  "prisma:migrate": "npx prisma migrate dev",
-  "build": "next build",
-  "deploy": "npm run prisma:generate && npm run prisma:migrate && npm run build"
-}
